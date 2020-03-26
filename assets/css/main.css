@@ -189,6 +189,11 @@ input, select, textarea {
 
 		p.major {
 			font-size: 1.25rem;
+
+		}
+
+		span.test {
+			font-size: 1.7rem!important;
 		}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -279,6 +284,10 @@ input, select, textarea {
 			margin: 3.5rem 0;
 		}
 
+		hr.major li {
+			font-size: 4rem!important;
+		}
+
 	.align-left {
 		text-align: left;
 	}
@@ -293,7 +302,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		p.major {
+		li.major {
 			font-size: 1.1rem;
 		}
 
@@ -3515,9 +3524,9 @@ input, select, textarea {
 			}
 
 			#AjaImage {
-				padding-right: 15%!important;
-				padding-left: 15%!important;
-				padding-top: 10%!important;
+				padding-right: 10%!important;
+				padding-left: 10%!important;
+				padding-top: 5%!important;
 			}
 
 			@media screen and (max-width: 950px) {
