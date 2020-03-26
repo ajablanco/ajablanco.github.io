@@ -2637,6 +2637,7 @@ input, select, textarea {
 		.image img {
 			display: block;
 			border-radius: 4px;
+			height: 60vh;
 		}
 
 		.image.left, .image.right {
@@ -3512,6 +3513,27 @@ input, select, textarea {
 				height: 100%;
 				border-radius: 0;
 			}
+
+			#AjaImage {
+				padding-right: 15%!important;
+				padding-left: 15%!important;
+				padding-top: 10%!important;
+			}
+
+			@media screen and (max-width: 950px) {
+				#AjaImage { 
+					padding: 0!important;
+				}
+			}
+
+			@media screen and (max-width: 500px) {
+				#AjaImage { 
+					height: 100%!important;
+					width: 100%!important;
+				}
+			}
+
+
 
 		@media screen and (max-width: 1680px) {
 
