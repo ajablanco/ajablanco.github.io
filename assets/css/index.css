@@ -285,7 +285,7 @@ header button:hover {
   width: 100%;
 }
 .section1 .skills {
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -425,4 +425,8 @@ footer {
   margin-bottom: 3%;
   padding: 2%;
   background-color: whitesmoke;
+}
+
+.image {
+  width: 50vw!important;
 }
