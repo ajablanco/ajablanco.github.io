@@ -480,5 +480,9 @@ footer {
 
 .aboutme {
   text-indent: 50px;
+
+}
+
+.aboutme p {
   line-height: 1.5;
 }
