@@ -8656,17 +8656,14 @@ input, select, textarea {
 			}
 
 			.contribution {
-<<<<<<< HEAD
 				color: grey;
 				display: flex;
 				justify-content: center;
 				margin: 0;
 				padding: 0;
 			}
-=======
-				display: flex;
-				justify-content: center;
-				margin: 0;
-				color: grey;
-			  }
->>>>>>> 14d1c734a4486cb2c1dff9cd86f1cd51fce14d57
+.aboutme {
+	text-indent: 50px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
