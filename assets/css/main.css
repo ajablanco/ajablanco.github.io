@@ -8654,3 +8654,10 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+			.contribution {
+				display: flex;
+				justify-content: center;
+				margin: 0;
+				color: grey;
+			  }
